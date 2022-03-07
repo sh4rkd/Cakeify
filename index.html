@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cakeify</title>
+    <link rel="stylesheet" href="css/tailwind.css">    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<!--
+El cliente de la pastelería necesita ver los diferentes sabores de pasteles, así como los precios de cada uno.*
+
+El cliente de la pastelería necesita ver los diferentes adornos con los que se puede decorar el pastel y los precios de cada uno.*
+
+El cliente de la pastelería tendrá la posibilidad de combinar sabores dependiendo de sus preferencias.
+
+El cliente de la pastelería tendrá la posibilidad de combinar adornos dependiendo de sus preferencias.
+
+El cliente de la pastelería necesita poner en un formulario su pedido.
+
+El formulario debe de contener los datos de contacto del cliente que son Nombre, Teléfono, Correo Electrónico, Descripción general del pastel 
+y la selección de sabores y adornos.
+
+El pastelero necesita tener la información de la cantidad de sabores que le quedan para hacer los pasteles.
+
+El pastelero necesita tener la información de la cantidad de adornos que le quedan para hacer los pasteles.
+
+El pastelero necesita una tabla donde aparezcan los pedidos que se han realizado con los datos del formulario.
+
+La página debe tener información de la pastelería que es Dirección, Teléfono y horarios de atención.
+-->
+<body>
+
+<!-- <main> -->   
+    <main>
+        <div class="h-screen bg-heroCakeify bg-no-repeat bg-center grid place-content-center">
+            <h1 class="text-primary text-8xl drop-shadow-md font-Montserrat font-bold">CAKEIFY</h1>
+        </div>
+        <div class="h-screen*3 w-full bg-secondary">
+            <div class="flex flex-col justify-center text-center items-center">                
+                <h2>Cakes</h2>
+                <div class="flex flex-row">
+                        <div class="Card">
+                        <div class="Card-image bg-vanillaCake"></div>
+                        <div class="Card-bg-secondary">
+                            <p class="Card-title">Vanilla Fragans</p>
+                            <p class="Price">$650</p>
+                        </div>
+                    </div>
+                    <div class="Card">
+                        <div class="Card-image bg-redCake"></div>
+                        <div class="Card-bg-secondary">
+                            <p class="Card-title">Red Velvet</p>
+                            <p class="Price">$750</p>
+                        </div>
+                    </div>                    
+                    <div class="Card">
+                        <div class="Card-image bg-cacaoCake"></div>
+                        <div class="Card-bg-secondary">
+                            <p class="Card-title">Theobroma Cacao</p>
+                            <p class="Price">$770</p>
+                        </div>
+                    </div>
+                    <div class="Card">
+                        <div class="Card-image bg-fruitCake"></div>
+                        <div class="Card-bg-secondary">
+                            <p class="Card-title">Adonidia Amerrilli</p>
+                            <p class="Price">$870</p>
+                        </div>
+                    </div>
+                    <div class="Card">
+                        <div class="Card-image bg-carrotCake"></div>
+                        <div class="Card-bg-secondary">
+                            <p class="Card-title">Daucus Carota</p>
+                            <p class="Price">$690</p>
+                        </div>
+                    </div>
+                </div>
+                <h2>Pies</h2>
+                <div class="flex flex-row">
+                    <div class="Card">
+                        <div class="Card-image bg-berryPie"></div>
+                        <div class="Card-bg-secondary">
+                            <p class="Card-title">NewYork Style</p>
+                            <p class="Price">$390</p>
+                        </div>
+                    </div>
+                    <div class="Card">
+                        <div class="Card-image bg-fruitPie"></div>
+                        <div class="Card-bg-secondary">
+                            <p class="Card-title">Rainbow Fruit</p>
+                            <p class="Price">$440</p>
+                        </div>
+                    </div>
+                    <div class="Card">
+                        <div class="Card-image bg-cacaoPie"></div>
+                        <div class="Card-bg-secondary">
+                            <p class="Card-title">Mocha Cheese</p>
+                            <p class="Price">$370</p>
+                        </div>
+                    </div>                    
+                </div>
+                <h2>Extras</h2>
+                <div class="flex flex-row pb-10">                    
+                    <div class="Card">
+                        <div class="Card-image bg-candles"></div>
+                        <div class="Card-bg-secondary">
+                            <p class="Card-title">Espelma Exotermica</p>
+                            <p class="Price">$120</p>
+                        </div>
+                    </div>
+                    <div class="Card">
+                        <div class="Card-image bg-birthdayLetters"></div>
+                        <div class="Card-bg-secondary">
+                            <p class="Card-title">Latinum Estuco</p>
+                            <p class="Price">$150</p>
+                        </div>
+                    </div>
+                    <div class="Card">
+                        <div class="Card-image bg-balloons"></div>
+                        <div class="Card-bg-secondary">
+                            <p class="Card-title">Hevea Oxygeni</p>
+                            <p class="Price">$100</p>
+                        </div>
+                    </div>
+                    <div class="Card">
+                        <div class="Card-image bg-numberBallons"></div>
+                        <div class="Card-bg-secondary">
+                            <p class="Card-title">Hevea Indoarábigos</p>
+                            <p class="Price">$190</p>
+                        </div>
+                    </div>
+                </div>
+            <a class="bg-pink-400 w-2/5 rounded-3xl pb-3 pt-3 mb-10 text-center text-pink-50 text-2xl" href="#">
+                Realizar Pedido
+            </a>            
+            </div>
+        </div>
+    </main>
+<!-- </main> --> 
+
+<!-- <footer> -->    
+    <footer class="h-40 bg-tertiary">
+        <div class="grid place-content-center pt-4">
+            <div class="text-pink-100 text-2xl drop-shadow-md font-Montserrat font-bold">
+                <p>Domicilio: Avenida siempre viva #123</p>
+                <p>Telefono: 012 345 6789</p>
+                <p>Horario: Lunes a Jueves 7 a.m a 7 p.m</p>
+            </div>
+        </div>
+    </footer>
+
+<!-- </footer> -->   
+</body>
+</html>
